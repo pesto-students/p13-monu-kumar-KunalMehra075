@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News Article</title>
+  </head>
+  <body>
+    <form enctype="multipart/form-data" action="/submit-form" method="post">
+      <label for="">Full Name</label><br />
+      <input type="text" name="fullName" id="fullName" /><br />
+      <label for="">Email</label><br />
+      <input type="email" name="email" id="email" /><br />
+      <label for="">About</label><br />
+      <textarea rows="3" cols="50" name="about" id="about"></textarea><br />
+      <label for="">Picture</label><br />
+      <input type="file" name="picture" id="picture" /><br />
+      <br />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
